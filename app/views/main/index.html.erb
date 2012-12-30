@@ -1,0 +1,41 @@
+<table border = "0" align = "center" valign = "top" width = "70%" height = "100%">
+  <tr height = "15%">
+    <td align = "center" valign = "middle"><b><font color = "green" size = "5">Достопримечательности Москвы</font></b></td>
+  </tr>
+  <tr>
+    <td>
+      <table border = "1" height = "60%" width = "960" align = "center" valign = "middle" cellpadding = "0" cellspacing = "0">
+        <tr height = "240">
+
+          <td width = "320" align = "center" valign = "top" background = "img/kremlin.jpg">
+            <%= link_to "Московский Кремль", :controller => "main", :action => "kremlin" %>
+          </td>
+
+          <td width = "320" align = "center" valign = "top" background = "img/church.jpg">
+            <%= link_to "Храм Христа Спасителя", :controller => "main", :action => "church" %>
+          </td>
+
+          <td width = "320" align = "center" valign = "top" background = "img/park.jpeg">
+            <%= link_to "Парк им. Горького", :controller => "main", :action => "park" %>
+          </td>
+                      
+        </tr>
+        <tr height = "240">
+                        
+          <td width = "320" align = "center" valign = "top" background = "img/pushkin.jpg">
+            <%= link_to "Государственный музей изобразительных искусств им. А.С.Пушкина", :controller => "main", :action => "pushkin" %>
+          </td>
+
+          <td width = "320" align = "center" valign = "top" background = "img/gtg.jpeg">
+            <%= link_to "Государственная Третьяковская галерея", :controller => "main", :action => "gtg" %>
+          </td>
+
+          <td width = "320" align = "center" valign = "top" background = "img/metro.jpg">
+            <%= link_to "Московское метро", :controller => "main", :action => "metro" %>
+          </td>
+                        
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

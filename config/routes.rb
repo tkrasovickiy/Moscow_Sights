@@ -1,4 +1,20 @@
 MS::Application.routes.draw do
+  root :to => 'main#index'
+  
+  match "/index" => "main#index"
+
+  match "/gtg" => "main#gtg"
+
+  match "/pushkin" => "main#pushkin"
+
+  match "/kremlin" => "main#kremlin"
+
+  match "/park" => "main#park"
+
+  match "/metro" => "main#metro"
+
+  match "/church" => "main#church"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
